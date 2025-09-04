@@ -1,3 +1,4 @@
 {
-  "*.{js,jsx,ts,tsx,html}": ["eslint --max-warnings=0", "prettier --check"]
+  "*.{js,jsx,ts,tsx,html}": ["eslint --max-warnings=0", "prettier --check"],
+  "*.{css,scss}": ["prettier --check"]
 }
