@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prettier": "prettier --write **/*.{js,jsx,ts,tsx,html,scss,css}",
-    "tsc": "tsc --noEmit --incremental",
+    "tsc": "tsc --noEmit --incremental --skipLibCheck",
     "tsc:watch": "pnpm tsc --watch",
     "dev:tsc": "pnpm dev & pnpm tsc:watch",
     "lint:errors": "pnpm lint --quiet",

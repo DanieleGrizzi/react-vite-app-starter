@@ -1,4 +1,5 @@
 {
   "*.{js,jsx,ts,tsx,html}": ["eslint --max-warnings=0", "prettier --check"],
+  "*.{ts,tsx}": ["bash -c 'pnpm tsc'"],
   "*.{css,scss}": ["prettier --check"]
 }
